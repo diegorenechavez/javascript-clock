@@ -1,0 +1,72 @@
+.hand {
+  transform-origin: 100%;
+  width: 50%;
+  height: 6px;
+  background: black;
+  position: absolute;
+  top: 50%;
+  transform: rotate(90deg);
+  border-radius: 10px;
+}
+.clock{
+     width: 30rem;
+      height: 30rem;
+      border: 20px solid white;
+      border-radius: 50%;
+      margin: 50px auto;
+      position: relative;
+      padding: 2rem;
+      box-shadow:
+        0 0 0 4px rgba(0,0,0,0.1),
+        inset 0 0 0 3px #EFEFEF,
+        inset 0 0 10px black,
+        0 0 10px rgba(0,0,0,0.2);
+        
+}
+
+.clock-face{
+  position: relative;
+      width: 100%;
+      height: 100%;
+      transform: translateY(-3px);
+      
+    
+
+}
+
+
+  body {
+      background-color: aquamarine;
+      margin: 0;
+      font-size: 2rem;
+      display: flex;
+      flex: 1;
+      min-height: 100vh;
+      align-items: center;
+    }
+
+     html {
+      font-family: 'helvetica neue';
+      text-align: center;
+      font-size: 10px;
+    }
+
+    .digital-clock{
+    border-radius: 5px;
+    height: 5em;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 2em;
+    margin-top: 55px;
+    color: green;
+    background-color: rgb(43, 41, 41);
+    text-shadow: 1px 0px 4px yellowgreen,1px 0px 4px green;
+}
+
+    .digital-clock-container{
+        color: black;
+        
+        
+    }
