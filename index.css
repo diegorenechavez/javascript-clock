@@ -7,7 +7,14 @@
   top: 50%;
   transform: rotate(90deg);
   border-radius: 10px;
+  
 }
+
+.seconds{
+    background: rgb(194, 32, 32);
+    height: 5px;
+}
+
 .clock{
      width: 30rem;
       height: 30rem;
